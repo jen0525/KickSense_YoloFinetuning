@@ -1,0 +1,6 @@
+path: C:/Users/DM/Documents/yh/AIFFELthon/data/custom/custom_image_ver3/data/final  # 데이터 최상위 경로
+train: train/images
+val: val/images
+
+nc: 1
+names: ['ball']

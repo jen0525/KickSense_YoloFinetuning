@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 가상환경
+venv/
+.venv/
+ENV/
+env/
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 운영체제 관련
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# 로그 파일
+*.log
+logs/
+
+# 임시 파일
+temp/
+tmp/
+*.tmp
+*.temp
+
+# YOLO 훈련 관련
+runs/*/weights/
+runs/*/opt.yaml
+runs/*/hyp.yaml
+*.cache
+
+# 대용량 데이터셋
+train/images/
+val/images/
+test/images/
+
+# 훈련 결과 (용량이 클 수 있음)
+# *.pt
+# *.pth
+# *.onnx
+
+# 데이터셋 압축 파일
+*.zip
+*.tar.gz
+*.rar
